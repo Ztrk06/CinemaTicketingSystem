@@ -19,7 +19,7 @@ The code follows a layered structure under `src/cinema`:
 |-------|---------|-------------|
 | Presentation | `cinema.presentation` | Console menus (`Main`, `UserMenu`, `AdminMenu`) |
 | Service | `cinema.service` | Business logic and repository interfaces |
-| Domain | `cinema.domain` | Entities (`Movie`, `Session`, `Ticket`, `User`, ...) |
+| Domain | `cinema.domain` | Entities (`Movie`, `Session`, `Ticket`, `User`, ..) |
 | Infrastructure | `cinema.infrastructure` | CSV-based repository implementations |
 
 Design patterns used:
